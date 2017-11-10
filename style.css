@@ -102,4 +102,7 @@ body {
     .sub-title {
       font-size: 0.8em;
     }
+    .sign-up-form {
+      margin: 0 auto;
+    }
 }
