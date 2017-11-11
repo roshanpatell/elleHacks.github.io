@@ -1,62 +1,241 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elle Hacks</title>
-    <link rel="icon" href="./assets/ellehacksico.ico">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="title-section">
-      <div class="corner-lines">
-        <svg height="100%" width="50%">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elle Hacks</title>
+  <link rel="icon" href="./assets/ellehacksico.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="title-section">
+    <!-- Corner Lines -->
+    <div class="corner-lines">
+      <svg height="100%" width="50%">
           <defs>
             <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" style="stop-color:#F38B94;stop-opacity:1" />
               <stop offset="50%" style="stop-color:#FBCDB8;stop-opacity:1" />
               <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
-
-
             </linearGradient>
           </defs>
           <line x1="-30" y1="100" x2="100" y2="-20" style="stroke:url(#grad1);stroke-width:20" />
           <line x1="-30" y1="150" x2="150" y2="-15" style="stroke:url(#grad1);stroke-width:20" />
         </svg>
-        <svg height="210" width="49%" transform="scale(-1,-1)">
+      <svg height="210" width="49%" transform="scale(-1,-1)">
           <line x1="-30" y1="100" x2="100" y2="-20" style="stroke:url(#grad1);stroke-width:20" />
           <line x1="-30" y1="150" x2="150" y2="-15" style="stroke:url(#grad1);stroke-width:20" />
         </svg>
-      </div>
-      <div class="grid fullscreen center-items">
-        <div class="title-col">
-          <img src="./assets/logo.png" class="title-logo" alt="">
-          <h2 class="sub-title">Canada's First All Female Hackathon</h2>
-          <svg height="10" width="100%">
+    </div>
+    <!-- Title Grid -->
+    <div class="grid fullscreen center-items">
+      <div class="title-col">
+        <img src="./assets/logo.png" class="title-logo" alt="">
+        <h2 class="sub-title">Canada's First All Female Hackathon</h2>
+        <svg height="10" width="100%">
             <line x1="10" y1="0" x2="500" y2="1" style="stroke:url(#grad1);stroke-width:10;margin:0 auto;" />
           </svg>
-          <h3 class="title-date">February 2 - 4,<br>York University</h3>
-          <div class="grid center-items">
-            <div class="col">
-              <form class="sign-up-form" action="index.html" method="post">
-                <input type="text" name="" value="" class="sign-up-input-text">
-              </form>
-            </div>
-            <div class="col">
-              <button class="sign-up-form-button" type="button" name="button">Send Me Updates</button>
-            </div>
+        <h3 class="title-date">February 2 - 4,<br>York University</h3>
+        <div class="grid center-items">
+          <div class="col">
+            <form class="sign-up-form" action="index.html" method="post">
+              <input type="text" name="" value="" class="sign-up-input-text">
+            </form>
           </div>
-          <h4 class="questions">Questions? Contact us at <a href="mailto:yorku.wise@gmail.com">yorku.wise@gmail.com</a></h4>
-          <div class="social-box">
-            <img src="./assets/ellehacksico.ico" class="social-favicons" alt="">
-            <img src="./assets/ellehacksico.ico" class="social-favicons" alt="">
-            <img src="./assets/ellehacksico.ico" class="social-favicons" alt="">
+          <div class="col">
+            <button class="sign-up-form-button" type="button" name="button">Send Me Updates</button>
           </div>
+        </div>
+        <h4 class="questions">Questions? Contact us at <a href="mailto:yorku.wise@gmail.com">yorku.wise@gmail.com</a></h4>
+        <div class="social-box">
+          <img src="./assets/ellehacksico.ico" class="social-favicons" alt="">
+          <img src="./assets/ellehacksico.ico" class="social-favicons" alt="">
+          <img src="./assets/ellehacksico.ico" class="social-favicons" alt="">
+        </div>
       </div>
     </div>
-    <div class="">
-
+    <!-- Our Mission Grid -->
+    <div class="grid center-items">
+      <div class="col">
+        <h3>Canada's First Student-Run All-Female Hackathon</h3>
+      </div>
+      <div class="col-2">
+        <h2>Our Mission /</h2> The role of the hackathon: ElleHacks is a women-only* hackathon taking place in Lassonde School of Engineering, North York. It is organized by students with background in STEM fields. We welcome women of all experience levels from a variety of
+        technical and creative disciplines to participate in a collaborative, technical project in an inclusive and safe space.
+        <br>
+        <h5>ElleHacks' secondary goals include:</h5>
+        <ul>
+          <li>
+            Provide women who are new to software development a welcoming environment in which they can get their hackathon feet wet, understand that it isn’t a scary place, and that, yes, they DO have the skills that are useful and necessary to participate in these
+            types of events.
+          </li>
+          <li>
+            Allow experienced women developers a chance to mentor up-and-coming developers.
+          </li>
+          <li>
+            Have project groups walk away from the event with a working prototype for their portfolio, confidence in themselves, and the desire to participate in future hackathons.
+          </li>
+          <li>
+            Added Bonus: Groups continue working together to expand their working prototypes.
+          </li>
+        </ul>
+        ElleHacks acknowledges the complicated nature of the word “women,” knowing it may not work for many, and can feel unwelcoming or alienating for some. We recognize the imperfection of language, and we use * to specifically and intentionally include cis
+        women, trans, non-binary, agender, intersex, and queer people.
+      </div>
     </div>
-  </body>
-  <script src="./script.js" charset="utf-8"></script>
+    <!-- Join Us Grid -->
+    <div class="join-us-section">
+      <div class="corner-lines">
+        <svg height="100%" width="50%">
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#F38B94;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#FBCDB8;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+          </svg>
+        <svg height="210" width="49%" transform="scale(-1,-1)">
+            <line x1="-30" y1="100" x2="100" y2="-20" style="stroke:url(#grad1);stroke-width:20" />
+            <line x1="-30" y1="150" x2="150" y2="-15" style="stroke:url(#grad1);stroke-width:20" />
+          </svg>
+      </div>
+      <h2>Join Us /</h2>
+      <div class="grid center-items">
+        <div class="col">
+          <img class="apply-img" src="./assets/hackathon-icon.png" alt="">
+          <h4>HACKATHON</h4>
+          <p>
+            Come out and attend our event! Don’t forget to apply before the deadline!
+          </p>
+          <button class="sign-up-form-button" type="button" name="button">Apply Now</button>
+        </div>
+        <div class="col apply-three">
+          <img class="apply-img" src="./assets/hackathon-icon.png" alt="">
+          <h4>VOLUNTEER</h4>
+          <p>
+            Want to help out? Apply here and we’ll set you up with a task! Free T-shirts for Volunteers.
+          </p>
+          <button class="sign-up-form-button" type="button" name="button">Apply Now</button>
+        </div>
+        <div class="col">
+          <img class="apply-img" src="./assets/hackathon-icon.png" alt="">
+          <h4>MENTOR</h4>
+          <p>
+            Do you have knowledgeable information about tech and is eager to teach? Let us know!
+          </p>
+          <button class="sign-up-form-button" type="button" name="button">Apply Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- Schedule Section -->
+    <div class="schedule-section">
+      <div class="grid">
+        <div class="col-2">
+          <h2>Schedule/</h2>
+          <h4>Coming Soon!</h4>
+          <h2>FAQ/</h2>
+          <button class="accordion">Section 1</button>
+          <div class="panel">
+            <p>Lorem ipsum...</p>
+          </div>
+
+          <button class="accordion">Section 2</button>
+          <div class="panel">
+            <p>Lorem ipsum...</p>
+          </div>
+
+          <button class="accordion">Section 3</button>
+          <div class="panel">
+            <p>Lorem ipsum...</p>
+          </div>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
+    </div>
+    <!-- Sponsors Section -->
+    <div class="sponsor-section">
+      <div class="corner-lines">
+        <svg height="100%" width="50%">
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#F38B94;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#FBCDB8;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+          </svg>
+        <svg height="210" width="49%" transform="scale(-1,-1)">
+            <line x1="-30" y1="100" x2="100" y2="-20" style="stroke:url(#grad1);stroke-width:20" />
+            <line x1="-30" y1="150" x2="150" y2="-15" style="stroke:url(#grad1);stroke-width:20" />
+          </svg>
+      </div>
+      <h2>Sponsors/</h2>
+      <div class="grid">
+        <div class="col">
+          <div class="sponsor-holder">
+
+          </div>
+          <div class="sponsor-holder">
+
+          </div>
+
+          <div class="sponsor-holder">
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="sponsor-holder">
+
+          </div>
+          <div class="sponsor-holder">
+
+          </div>
+
+          <div class="sponsor-holder">
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="sponsor-holder">
+
+            </div>
+            <div class="sponsor-holder">
+
+            </div>
+
+            <div class="sponsor-holder">
+
+            </div>
+        </div>
+      </div>
+      <h4>Want to become a sponsor?</h4>
+      <button class="sign-up-form-button"type="button" name="button">Contact Us</button>
+    </div>
+    <!-- Event Section -->
+    <div class="event-section">
+      <div class="grid">
+        <div class="col">
+          <h2>Event/</h2>
+        </div>
+        <div class="col-2">
+          im a map
+        </div>
+      </div>
+    </div>
+    <!-- Countdown Timer -->
+    <div class="countdown-timer">
+      im a clock
+    </div>
+    <!-- Contact Section -->
+    <div class="contact-section">
+      <h4>Questions? Contact us at</h4>
+    </div>
+</body>
+<script src="./script.js" charset="utf-8"></script>
+
 </html>
