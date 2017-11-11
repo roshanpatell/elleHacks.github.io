@@ -24,8 +24,25 @@ body {
   justify-content: center;
   align-items: center;
 }
+.align-self-top {
+  align-self: flex-start;
+}
 
+.background-grad {
+  background: -webkit-linear-gradient(#FBCDB8, #F38B94); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FBCDB8, #F38B94); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FBCDB8, #F38B94); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FBCDB8, #F38B94); /* Standard syntax */
+  color: white;
+}
 
+.heading {
+
+}
+.backslash {
+  color: #F38B94;
+}
+/*Title Styling*/
 .title-section {
   height: 100vh;
   width: 100vw;
@@ -98,6 +115,18 @@ body {
   padding-left: 2em;
   padding-right: 2em;
 }
+/* OUr Mission Styling*/
+.mission-grid {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.mission-sub-header {
+  margin-top: 150px;
+  margin-right: 40px;
+}
+
 .apply-three {
   width: 90%;
 }
@@ -172,4 +201,7 @@ div.panel {
     .join-us-section {
       height: auto;
       }
+    .mission-sub-header {
+      margin-top: 10px;
+    }
 }
