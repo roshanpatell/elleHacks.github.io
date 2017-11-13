@@ -17,6 +17,8 @@ for (i = 0; i < acc.length; i++) {
     }
 }
 
+
+// Yo this is W3Schools stuff + some of mine
 var countDownDate = new Date("Feb 2, 2018 00:00:00").getTime();
 
 // Update the count down every 1 second
@@ -34,6 +36,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+// Do the inserting of the information
   document.getElementById("days").innerHTML = days;
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("minutes").innerHTML = minutes;

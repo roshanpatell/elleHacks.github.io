@@ -162,6 +162,9 @@ a {
   padding-right: 1em;
 }
 /* OUr Mission Styling*/
+.our-mission-section {
+  width: 100vw;
+}
 .mission-grid {
   width: 80%;
   margin: 0 auto;
@@ -213,6 +216,7 @@ a {
   text-align: center;
 }
 .schedule-section {
+  width: 100vw;
   height: auto;
 }
 .schedule-grid {
@@ -284,7 +288,9 @@ div.panel {
 .sponsor-section > .sign-up-form-button {
   transform: scale(1.5);
 }
-
+.event-section {
+  width: 100vw;
+}
 .event-section > .grid {
   height: 450px;
 }
@@ -335,6 +341,7 @@ div.panel {
   text-align: center;
 }
 .contact-section {
+  width: 100vw;
   border-top: 1px solid #F38B94;
   margin-bottom: 50px;
 }
