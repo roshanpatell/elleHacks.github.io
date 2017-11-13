@@ -25,7 +25,7 @@ h1 {
 }
 h2 {
   font-family: 'GothamHTF-Medium', sans-serif;
-  font-size: 2.4em;
+  font-size: 50px;
 }
 a {
   color: #F38B94;
@@ -201,46 +201,118 @@ a {
   margin-top: 150px;
   margin-bottom: 150px;
 }
-.join-us-grid {
-
+.join-us-subheader {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'GothamHTF-Medium';
 }
 .join-us-section > .corner-lines {
   height: 100%;
 }
+.join-us-p {
+  text-align: center;
+}
 .schedule-section {
   height: auto;
 }
-.sponsor-section > .corner-lines {
-  height: 100%;
+.schedule-grid {
+  width: 80%;
+  margin: 0 auto;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-family: 'GothamHTF-Medium';
+    font-size: 20px;
+    opacity: 0.8;
     cursor: pointer;
-    padding: 18px;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
 }
-.sponsor-holder {
-  margin: 20px;
-  height: 180px;
-  background-color: grey;
-}
 
+ul.faq-ul {
+  list-style: none;
+  margin-bottom: 50px;
+}
+li.faq-li::before {
+  content: "";
+   border-color: transparent WHITE;
+   border-style: solid;
+   border-width: 0.35em 0 0.35em 0.45em;
+   display: block;
+   height: 0;
+   width: 0;
+   left: -1em;
+   top: 1em;
+   position: relative;
+}
+li.faq-li::before.active {
+  transform: rotateX(90);
+}
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
-    background-color: #ccc;
+    opacity: 1;
+    transition: 0.5s;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0 18px;
-    background-color: white;
     display: none;
+    transition: 0.5s;
+}
+.sponsor-section {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.sponsor-holder {
+  margin: 20px;
+  height: 180px;
+  background-color: grey;
+}
+.sponsor-wantto {
+  font-family: 'GothamHTF-Medium';
+  font-size: 30px;
+  text-align: center;
+}
+.sponsor-section > .sign-up-form-button {
+  transform: scale(1.5);
+}
+
+.event-section > .grid {
+  height: 450px;
+}
+.event-text {
+  width: 80%;
+  margin: 0 auto;
+}
+.event-subheader {
+  font-family: 'GothamHTF-Medium';
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.event-underline {
+  padding-bottom: 25px;
+  border-bottom: 1px solid white;
+}
+.after-underline {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.event-address {
+  margin: 0;
+  font-family: 'GothamHTF-Light';
+  font-weight: 300;
+  font-size: 20px;
 }
 @media (max-width: 700px) {
     .grid {
@@ -283,6 +355,15 @@ div.panel {
     }
     .mission-sub-header {
       margin-top: 10px;
+    }
+    .event-section > .grid {
+      height: auto;
+    }
+    .event-text {
+      margin-bottom :50px;
+    }
+    .event-map {
+      height: 400px;
     }
 
 }
