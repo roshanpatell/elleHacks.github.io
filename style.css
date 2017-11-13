@@ -125,13 +125,14 @@ a {
   display: inline;
 }
 .social-favicons {
-  width: 20px;
+  width: 35px;
   margin: 0;
+  margin-left:4px;
   padding: 0;
 }
 .social-box {
   margin: 0 auto;
-  width: 77px;
+  width: 130px;
 }
 
 .sign-up-form {
@@ -151,7 +152,6 @@ a {
   font-family: 'GothamHTF-Medium';
   font-size: 0.9em;
   border: 0;
-  text-shadow: 2px 2px 5px #555;
   letter-spacing: 1px;
   padding: 0;
   cursor: pointer;
@@ -313,6 +313,30 @@ div.panel {
   font-family: 'GothamHTF-Light';
   font-weight: 300;
   font-size: 20px;
+}
+.countdown-timer {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.countdown-clock {
+  text-align: center;
+  margin: 0;
+  font-family: 'GothamHTF-Bold';
+  font-size: 56px;
+  background: linear-gradient(#FBCDB8, #F38B94, #F38B94);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.clock {
+  font-family: 'GothamHTF-Medium';
+  font-size: 20px;
+  text-align: center;
+}
+.contact-section {
+  border-top: 1px solid #F38B94;
+  margin-bottom: 50px;
 }
 @media (max-width: 700px) {
     .grid {
