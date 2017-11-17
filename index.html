@@ -7,6 +7,10 @@
   <title>Elle Hacks</title>
   <link rel="icon" href="./assets/ellehacksico.ico">
   <link rel="stylesheet" href="style.css">
+  <!-- jQuery for email forms -->
+  <script src="jquery-3.2.1.min.js"></script>
+  <!-- Serialize Object to send data to google script -->
+  <script src="jquery.serialize-object.min.js"></script>
 </head>
 
 <body>
@@ -41,11 +45,11 @@
         <div class="grid center-items">
           <div class="col">
             <form class="sign-up-form" action="index.html" method="post">
-              <input type="text" name="" value="" class="sign-up-input-text">
+              <input type="text" name="email" placeholder="email@domain.com" value="email" class="sign-up-input-text" id="email-form">
             </form>
           </div>
           <div class="col">
-            <button class="sign-up-form-button" type="button" name="button">Send me updates</button>
+            <button class="sign-up-form-button" id="submit-form" type="button" name="button">Send me updates</button>
           </div>
         </div>
         <h4 class="questions">Questions? Contact us at <a href="mailto:yorku.wise@gmail.com">yorku.wise@gmail.com</a></h4>

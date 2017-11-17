@@ -48,3 +48,19 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "Thanks for visiting!";
   }
 }, 1000);
+
+var $form = $('form#email-form'),
+    url = 'https://script.google.com/macros/s/AKfycbyozciFf9JJl4mdyi_CVyuNm6xl3XcJfOduCJzVp6asNd7cTdg/exec',
+    redirectUrl = 'index.html';
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.post(
+    url,
+    $form.serialize(),
+    function(data) {
+      console.log("Success! Data: " + data.statusText);
+      $(location).attr('href',redirectUrl);
+    }
+  );
+})
