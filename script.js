@@ -49,12 +49,12 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-var $form = $('form#email-form'),
-    url = 'https://script.google.com/macros/s/AKfycbyozciFf9JJl4mdyi_CVyuNm6xl3XcJfOduCJzVp6asNd7cTdg/exec',
+var url = 'https://script.google.com/macros/s/AKfycbyozciFf9JJl4mdyi_CVyuNm6xl3XcJfOduCJzVp6asNd7cTdg/exec',
     redirectUrl = 'index.html';
 
 $('#submit-form').on('click', function(e) {
   e.preventDefault();
+  var $form = $('#email-form');
   var jqxhr = $.post(
     url,
     $form.serialize(),
