@@ -12,8 +12,29 @@
   <!-- Serialize Object to send data to google script -->
   <script src="jquery.serialize-object.min.js"></script>
 </head>
-
+<header>
+  <div class="nav-bar">
+    <div class="grid">
+      <div class="col nav-link">
+        <img src="./assets/ellehacksico.ico" alt="">
+      </div>
+      <div class="col nav-link">
+        <h4>Home</h4>
+      </div>
+      <div class="col nav-link">
+        <h4>About</h4>
+      </div>
+      <div class="col nav-link">
+        <h4>Apply Now</h4>
+      </div>
+      <div class="col nav-link">
+        <h4>Sponsors</h4>
+      </div>
+    </div>
+  </div>
+</header>
 <body>
+  <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
   <div class="title-section">
     <!-- Corner Lines -->
     <div class="corner-lines">
@@ -25,12 +46,12 @@
               <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
             </linearGradient>
           </defs>
-          <line x1="-30" y1="100" x2="100" y2="-20" style="stroke:url(#grad1);stroke-width:20" />
-          <line x1="-30" y1="150" x2="150" y2="-15" style="stroke:url(#grad1);stroke-width:20" />
+          <line x1="-30" y1="150" x2="150" y2="-30" style="stroke:url(#grad1);stroke-width:30" />
+          <line x1="-30" y1="220" x2="220" y2="-30" style="stroke:url(#grad1);stroke-width:30" />
         </svg>
       <svg height="210" width="49%" transform="scale(-1,-1)">
-          <line x1="-30" y1="100" x2="100" y2="-20" style="stroke:url(#grad1);stroke-width:20" />
-          <line x1="-30" y1="150" x2="150" y2="-15" style="stroke:url(#grad1);stroke-width:20" />
+          <line x1="-30" y1="150" x2="150" y2="-30" style="stroke:url(#grad1);stroke-width:30" />
+          <line x1="-30" y1="220" x2="220" y2="-30" style="stroke:url(#grad1);stroke-width:30" />
         </svg>
     </div>
     <!-- Title Grid -->
@@ -84,7 +105,7 @@
             all experience levels from a variety of technical and creative disciplines to participate in a collaborative, technical project in an inclusive and safe space.
           </p>
           <br>
-          <h4 class="mission-h4">ElleHacks' secondary goals include:</h4>
+          <h4 class="mission-h3">ElleHacks' secondary goals include:</h4>
           <ul class="mission-ul" style="transform: translateX(-15px);">
             <li>
               Provide women who are new to software development a welcoming environment in which they can get their hackathon feet wet, understand that it isn’t a scary place, and that, yes, they DO have the skills that are useful and necessary to participate in these
@@ -115,12 +136,14 @@
       <h2>Join Us<span class="backslash">/</span></h2>
       <div class="grid center-items">
         <div class="col">
-          <img class="apply-img" src="./assets/hackathon-icon.png" alt="">
+          <div class="">
+            <img class="apply-img" src="./assets/hackathon-icon.png" alt="">
+          </div>
           <h4 class="join-us-subheader">HACKATHON</h4>
           <p class="join-us-p">
-            Come out and attend our event! Don’t forget to apply before the deadline!
+            Come out and attend our event! Don’t forget to apply using the link below before the deadline!
           </p>
-          <button class="sign-up-form-button" type="button" name="button">Apply Now</button>
+          <a href="#"><button class="sign-up-form-button" type="button" name="button">Apply Now</button></a>
         </div>
         <div class="col apply-three-mid">
           <img class="apply-img" src="./assets/volunteer-icon.png" alt="">
@@ -128,7 +151,7 @@
           <p class="join-us-p">
             Want to help out? Apply here and we’ll set you up with a task! Free T-shirts for Volunteers.
           </p>
-          <button class="sign-up-form-button" type="button" name="button">Apply Now</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdg625oODzMUOirZbU3gBVUCXovky1lyw8_CyuG_BDMSIKW4w/viewform"><button class="sign-up-form-button" type="button" name="button">Apply Now</button></a>
         </div>
         <div class="col">
           <img class="apply-img" src="./assets/mentor-icon.png" alt="">
@@ -136,7 +159,8 @@
           <p class="join-us-p">
             Do you have knowledgeable information about tech and is eager to teach? Let us know!
           </p>
-          <button class="sign-up-form-button" type="button" name="button">Apply Now</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLPRlLOcj_X6F-EcYwIYq1LCNyrrTmhAVTL4Z9ZT0bHdUsMw/viewform"><button class="sign-up-form-button" type="button" name="button">Apply Now</button></a>
+
         </div>
       </div>
     </div>
@@ -164,21 +188,34 @@
             <li class="faq-li">
               <button class="accordion">How do I become a volunteer?</button>
               <div class="panel">
-                <p>Please register to be a volunteer here (link to volunteer form), we'd love to have you! Volunteers can be any gender, and are critical to ensure that ElleHacks operates smoothly. This year, we expect around 200 hackers, so we need all
+                <p>Please register to be a volunteer <a class="school-list" href="https://docs.google.com/forms/d/e/1FAIpQLSdg625oODzMUOirZbU3gBVUCXovky1lyw8_CyuG_BDMSIKW4w/viewform">here</a>, we'd love to have you! Volunteers can be any gender, and are critical to ensure that ElleHacks operates smoothly. This year, we expect around 200 hackers, so we need all
                   the help that we can get!</p>
               </div>
             </li>
             <li class="faq-li">
               <button class="accordion">How do I get to the event?</button>
               <div class="panel">
-                <p>We have reserved buses for universities near select areas. Access these links to reserve your bus seat for these locations. -McMaster -Waterloo -Toronto -Queens ■ If there isn't a bus going to your location, fill out this form (link to
-                  form) to be considered for a travel reimbursement.</p>
+                <p>We have reserved buses for universities near select areas. Access these links to reserve your bus seat for these locations.
+                  <ul>
+                    <li><a href="" class="school-list">McMaster</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="" class="school-list">Waterloo</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="" class="school-list">Toronto</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="" class="school-list">Queens</a></li>
+                  </ul>
+                  <br>
+                  If there isn't a bus going to your location, fill out <a class="school-list" href="#">this form</a> to be considered for a travel reimbursement.</p>
               </div>
             </li>
             <li class="faq-li">
               <button class="accordion">Where is the event?</button>
               <div class="panel">
-                <p>ElleHacks 2018 will be held in the Bergeron School of Engineering Excellence (link to google maps) at York University from February 2th-4th, 2018.</p>
+                <p>ElleHacks 2018 will be held in the <a class="school-list" href="#event-section">Bergeron School of Engineering Excellence</a> at York University from February 2th-4th, 2018.</p>
               </div>
             </li>
             <li class="faq-li">
@@ -190,7 +227,7 @@
             <li class="faq-li">
               <button class="accordion">How do I become a mentor?</button>
               <div class="panel">
-                <p>Please register to be a mentor here (link to form), we'd love to have you! Mentors can be any gender, and make the hackathon experience impactful by guiding participants through technical challenges and sharing stories along the way.</p>
+                <p>Please register to be a mentor <a class="school-list" href="https://docs.google.com/forms/d/e/1FAIpQLSeLPRlLOcj_X6F-EcYwIYq1LCNyrrTmhAVTL4Z9ZT0bHdUsMw/viewform">here</a>, we'd love to have you! Mentors can be any gender, and make the hackathon experience impactful by guiding participants through technical challenges and sharing stories along the way.</p>
               </div>
             </li>
             <li class="faq-li">
@@ -214,8 +251,11 @@
         </div>
       </div>
     </div>
+    <div class="gap-section">
+
+    </div>
     <!-- Sponsors Section -->
-    <div class="sponsor-section">
+    <!-- <div class="sponsor-section">
       <h2>Sponsors<span class="backslash">/</span></h2>
       <div class="grid">
         <div class="col">
@@ -256,10 +296,10 @@
         </div>
       </div>
       <h4 class="sponsor-wantto">Want to become a sponsor?</h4>
-      <button class="sign-up-form-button" type="button" name="button">Contact Us</button>
-    </div>
+      <a href="mailto:yorku.wise@gmail.com"><button class="sign-up-form-button" type="button" name="button">Contact Us</button></a>
+    </div> -->
     <!-- Event Section -->
-    <div class="event-section background-grad">
+    <div class="event-section background-grad" id="event-section">
       <div class="grid">
         <div class="col">
           <div class="event-text">
@@ -274,9 +314,6 @@
         </div>
         <div class="col-2 event-map">
           <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCCtNwgmRGByTRqIA4BmJf2UIhfC7p8gFE&q=Bergeron+Centre+For+Engineering+Excellence" allowfullscreen></iframe>
-
-
-
         </div>
       </div>
     </div>

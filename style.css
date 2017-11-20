@@ -30,6 +30,12 @@ h2 {
 a {
   color: #F38B94;
 }
+.nav-bar {
+  position: fixed;
+}
+.nav-link {
+  width: 50px;
+}
 .grid {
   display: flex;
 }
@@ -185,13 +191,17 @@ a {
 .mission-h4 {
   font-family: 'GothamHTF-Book';
 }
+.mission-h3 {
+  font-family: 'GothamHTF-Book';
+  font-size: 25px;
+  margin-top: 10px;
+}
 .mission-ul {
   line-height: 20px;
 }
 .apply-img {
   display: block;
   margin: 0 auto;
-  max-height: 200px;
   max-width: 90%;
 }
 .apply-three-mid {
@@ -262,7 +272,9 @@ button.accordion.active, button.accordion:hover {
     opacity: 1;
     transition: 0.5s;
 }
-
+.gap-section {
+  height: 200px;
+}
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0 18px;
@@ -344,6 +356,9 @@ div.panel {
   width: 100vw;
   border-top: 1px solid #F38B94;
   margin-bottom: 50px;
+}
+a.school-list {
+  color: white;
 }
 @media (max-width: 700px) {
     .grid {
