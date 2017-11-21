@@ -12,27 +12,36 @@
   <!-- Serialize Object to send data to google script -->
   <script src="jquery.serialize-object.min.js"></script>
 </head>
-<!-- <header>
+<header>
   <div class="nav-bar">
-    <div class="grid">
-      <div class="col nav-link">
-        <img src="./assets/ellehacksico.ico" alt="">
+    <div class="nav-grid">
+      <div>
+        <a href="#"><img class="nav-img" src="./assets/nav-icon.png" alt=""></a>
       </div>
-      <div class="col nav-link">
-        <h4>Home</h4>
+      <div>
+        <a class="nav-link" href="#about"><h4 class="nav-title">ABOUT</h4></a>
       </div>
-      <div class="col nav-link">
-        <h4>About</h4>
+      <div>
+        <a class="nav-link" href="#join-us"><h4 class="nav-title">JOIN US</h4></a>
       </div>
-      <div class="col nav-link">
-        <h4>Apply Now</h4>
+      <div>
+        <a class="nav-link" href="#schedule-faq"><h4 class="nav-title">SCHEDULE</h4></a>
       </div>
-      <div class="col nav-link">
-        <h4>Sponsors</h4>
+      <div>
+        <a class="nav-link" href="#schedule-faq"><h4 class="nav-title">FAQ</h4></a>
+      </div>
+      <!-- <div>
+        <a class="nav-link" href="#"><h4 class="nav-title">SPONSORS</h4></a>
+      </div> -->
+      <div>
+        <a class="nav-link" href="#event-section"><h4 class="nav-title">LOCATION</h4></a>
+      </div>
+      <div>
+        <a class="nav-link" href="#contact"><h4 class="nav-title">CONTACT US</h4></a>
       </div>
     </div>
   </div>
-</header> -->
+</header>
 <body>
   <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
   <div class="title-section">
@@ -55,7 +64,7 @@
         </svg>
     </div>
     <!-- Title Grid -->
-    <div class="grid fullscreen center-items">
+    <div class="grid fullscreen center-items enlarge">
       <div class="title-col">
         <img src="./assets/logo.png" class="title-logo" alt="">
         <h2 class="sub-title">Canada's First All Female Hackathon</h2>
@@ -76,7 +85,7 @@
         <form class="sign-up-form" action="index.html" method="post" id="email-form">
         <div class="grid center-items">
           <div class="col">
-              <input type="text" name="email" placeholder="email@domain.com" class="sign-up-input-text">
+              <input type="text" name="email" placeholder=" email@domain.com" class="sign-up-input-text">
           </div>
           <div class="col">
             <input class="sign-up-form-button" id="submit-form" type="submit" value="Send Me Updates">
@@ -93,7 +102,7 @@
     </div>
   </div>
     <!-- Our Mission Grid -->
-    <div class="our-mission-section background-grad">
+    <div class="our-mission-section background-grad" id="about">
       <div class="grid center-items mission-grid">
         <div class="col align-self-top">
           <h3 class="mission-sub-header">Canada's First Student-Run All-Female Hackathon</h3>
@@ -132,7 +141,7 @@
       </div>
     </div>
     <!-- Join Us Grid -->
-    <div class="join-us-section">
+    <div class="join-us-section" id="join-us">
       <h2>Join Us<span class="backslash">/</span></h2>
       <div class="grid center-items">
         <div class="col">
@@ -165,7 +174,7 @@
       </div>
     </div>
     <!-- Schedule Section -->
-    <div class="schedule-section background-grad">
+    <div class="schedule-section background-grad" id="schedule-faq">
       <div class="grid schedule-grid">
         <div class="col-2">
           <h2>Schedule<span class="backslash">/</span></h2>
@@ -255,7 +264,7 @@
 
     </div>
     <!-- Sponsors Section -->
-    <!-- <div class="sponsor-section">
+    <!-- <div class="sponsor-section" id="sponsor">
       <h2>Sponsors<span class="backslash">/</span></h2>
       <div class="grid">
         <div class="col">
@@ -340,7 +349,7 @@
       </div>
     </div>
     <!-- Contact Section -->
-    <div class="contact-section">
+    <div class="contact-section" id="contact">
       <h4 class="questions">Questions? Contact us at <a href="mailto:yorku.wise@gmail.com">yorku.wise@gmail.com</a></h4>
       <div class="social-box">
         <a href="https://www.facebook.com/ElleHacks-364051890675123/"><img src="./assets/facebook-icon.png" class="social-favicons" alt=""></a>
