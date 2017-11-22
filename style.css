@@ -394,7 +394,7 @@ div.panel {
 a.school-list {
   color: white;
 }
-@media (max-width: 1080px) {
+@media (max-width: 940px) {
   .nav-bar {
     visibility: hidden;
   }
