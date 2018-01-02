@@ -131,6 +131,9 @@ a {
   z-index: -1;
   width: 102%;
 }
+.flipped-safari {
+  -webkit-transform: scale(-1,-1);
+}
 .bottom-corner-lines {
   position: absolute;
   z-index: -1;
