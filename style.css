@@ -118,6 +118,7 @@ a {
   background-image: url('./assets/img-background.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .title-date {
   text-align: center;
