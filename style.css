@@ -259,7 +259,9 @@ a {
   width: 80vw;
   margin: 0 auto;
   padding-top: 100px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #F38B94;
 }
 .join-us-subheader {
   text-align: center;
@@ -281,6 +283,22 @@ a {
   width: 80%;
   margin: 0 auto;
 }
+.recap-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.recap-img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+/* .youtube-video {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+} */
+
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
     background-color: rgba(0,0,0,0);
@@ -318,7 +336,7 @@ li.faq-li::before.active {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     opacity: 1;
-    transition: 0.5s;
+    transition: 0.05s;
 }
 .gap-section {
   height: 200px;
@@ -335,10 +353,52 @@ div.panel {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.sponsor-holder {
+.sponsor-header {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'GothamHTF-Medium';
+  text-align: center;
+  color: #F38B94;
+}
+.sponsor-holder-partner {
   margin: 20px;
-  height: 180px;
-  background-color: #E8E8E8;
+  height: 200px;
+  margin-bottom: 50px;
+  /* height: 180px; */
+  /* background-color: #E8E8E8; */
+}
+.sponsor-img-partner {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+}
+.sponsor-holder-silver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 30px;
+}
+.sponsor-holder-bronze {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 150px;
+  margin:30px;
+}
+.sponsor-img-silver {
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  max-width: 200px;
+}
+.sponsor-img-bronze {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
 }
 .sponsor-wantto {
   font-family: 'GothamHTF-Medium';
@@ -421,6 +481,7 @@ a.school-list {
     transform: scale(1);
   }
 }
+
 @media (max-width: 700px) {
     .grid {
       flex-direction: column;
