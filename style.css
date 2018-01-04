@@ -475,8 +475,12 @@ div.panel {
 }
 .contact-section {
   width: 100vw;
-  border-top: 1px solid #F38B94;
-  margin-bottom: 50px;
+  /* border-top: 1px solid #F38B94; */
+  padding-bottom: 75px;
+  padding-top: 25px;
+  color: white;
+  font-size: 1.25em;
+  background-color: #525252;
 }
 a.school-list {
   color: white;
