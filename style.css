@@ -80,6 +80,9 @@ a {
 .col-2 {
   flex: 2;
 }
+.col-3 {
+  flex:3;
+}
 .center-items {
   justify-content: center;
   align-items: center;
@@ -202,16 +205,16 @@ a {
   margin: 0 auto;
   background-color: #F38B94;
   font-family: 'GothamHTF-Medium';
-  font-size: 1em;
+  font-size: 1.2em;
   border: 0;
   letter-spacing: 1px;
   padding: 0;
   cursor: pointer;
   border-radius: 2em;
-  height: 2.5em;
+  height: 2.3em;
   color: white;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 .sign-up-form-button:hover {
   background-color: #D67B84;
@@ -279,15 +282,55 @@ a {
   width: 100vw;
   height: auto;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .schedule-grid {
   width: 80%;
   margin: 0 auto;
 }
+.schedule-subheader {
+  font-family: 'GothamHTF-Medium';
+  font-size: 1.1em;
+}
+.schedule-time {
+  font-size: 1.2em;
+  margin-bottom: 3px;
+  margin-top: 4px;
+}
+.download-a {
+  text-decoration: none;
+  display: block;
+  opacity: 0.7;
+  width: 210px;
+}
+.download-a:hover {
+  opacity: 1;
+}
+.download-a:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.download-button {
+  width: 210px;
+  display: block;
+  font-family: 'GothamHTF-Bold';
+  text-align: center;
+  font-size: 2em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  color: white;
+  border: 1px solid white;
+
+}
 .recap-section {
   width: 80%;
   margin: 0 auto;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .recap-img {
   max-width: 90%;
@@ -326,10 +369,23 @@ button.accordion {
     outline: none;
     transition: 0.4s;
 }
+button.accordion.schedule-but {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-family: 'GothamHTF-Medium';
+    font-size: 2em;
+    opacity: 0.8;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
 
 ul.faq-ul {
   list-style: none;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 li.faq-li::before {
   content: "";
@@ -341,6 +397,18 @@ li.faq-li::before {
    width: 0;
    left: -1em;
    top: 1em;
+   position: relative;
+}
+li.schedule-li::before {
+  content: "";
+   border-color: transparent WHITE;
+   border-style: solid;
+   border-width: 0.35em 0 0.35em 0.45em;
+   display: block;
+   height: 0;
+   width: 0;
+   left: -1em;
+   top: 1.5em;
    position: relative;
 }
 li.faq-li::before.active {
@@ -359,6 +427,13 @@ div.panel {
     padding: 0 18px;
     display: none;
     transition: 0.5s;
+}
+div.panel.schedule-panel {
+  display: none;
+  transition: 0.5s;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid white;
 }
 .sponsor-section {
   width: 80%;
@@ -558,5 +633,11 @@ a.school-list {
     .nav-bar {
       visibility: hidden;
     }
-
+    div.panel.schedule-panel {
+      padding: 0;
+      padding-top: 15px;
+    }
+    .download-a {
+      margin: 0 auto;
+    }
 }
