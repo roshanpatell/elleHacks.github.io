@@ -121,6 +121,9 @@ a {
 .backslash {
   color: #F38B94;
 }
+.backslash-peach {
+  color: #FBCDB8;
+}
 /*Title Styling*/
 .title-section {
   height: 100vh;
@@ -257,6 +260,50 @@ a {
 }
 .mission-ul {
   line-height: 20px;
+}
+.team-section {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  border-top: 1px solid white;
+  padding-bottom: 50px;
+}
+.team-grid {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.team-heading {
+}
+.team-member {
+  font-family: 'GothamHTF-Book';
+  margin: 10px;
+  border-radius:10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.3s;
+}
+.team-img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.team-member:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.team-name{
+  font-family: 'GothamHTF-Book';
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 0;
+}
+.team-title {
+  font-family: 'GothamHTF-ThinItalic';
+  text-align: center;
+  margin-top: 4px;
 }
 .apply-img {
   display: block;
