@@ -287,6 +287,8 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width:1080px;
+  margin: 0 auto;
 }
 .team-heading {
 }
@@ -526,11 +528,14 @@ div.panel.schedule-panel {
   /* height: 180px; */
   /* background-color: #E8E8E8; */
 }
+#best-sponsor {
+  height: 100px;
+  margin-top: 35px;
+}
 .sponsor-img-partner {
   display: block;
   margin: 0 auto;
-  width: 100%;
-  max-width: 500px;
+  height: 150px;
 }
 .sponsor-holder-gold {
   display: flex;
