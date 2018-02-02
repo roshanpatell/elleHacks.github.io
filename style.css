@@ -523,8 +523,7 @@ div.panel.schedule-panel {
   color: #F38B94;
 }
 .sponsor-holder-partner {
-  margin: 20px;
-  height: 200px;
+  margin: 20px auto;
   margin-bottom: 50px;
   /* height: 180px; */
   /* background-color: #E8E8E8; */
@@ -536,7 +535,7 @@ div.panel.schedule-panel {
 .sponsor-img-partner {
   display: block;
   margin: 0 auto;
-  height: 150px;
+  max-height: 150px;
 }
 .sponsor-holder-gold {
   display: flex;
@@ -675,6 +674,13 @@ a.school-list {
     }
     .sign-up-form-button {
       margin-top: 10px;
+    }
+    .sponsor-img-partner {
+      max-height: auto;
+      max-width: 300px;
+    }
+    #best-sponsor {
+      height: auto;
     }
     .social-box {
       margin-bottom: 80px;
