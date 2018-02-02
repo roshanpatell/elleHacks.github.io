@@ -318,7 +318,8 @@ a {
   margin-bottom: 0;
 }
 .team-title {
-  font-family: 'GothamHTF-ThinItalic';
+  font-family: 'GothamHTF-Light';
+  font-style: italic;
   text-align: center;
   margin-top: 4px;
 }
