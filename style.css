@@ -30,6 +30,10 @@ h2 {
 a {
   color: #F38B94;
 }
+a.linkedin {
+  color: white;
+  text-decoration: none;
+}
 .nav-grid {
   flex-direction: row;
   justify-content:flex-end;
