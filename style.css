@@ -38,8 +38,9 @@ a.linkedin {
   text-decoration: none;
 }
 .nav-grid {
+  display: flex;
   flex-direction: row;
-  justify-content:flex-end;
+  justify-content: space-between;
 }
 .nav-bar {
   position: fixed;
@@ -47,6 +48,10 @@ a.linkedin {
   width: 100%;
   z-index: 10;
   opacity: 0.8;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
 }
 .nav-img {
   max-width: 100px;
@@ -296,6 +301,7 @@ a.linkedin {
   justify-content: space-around;
   max-width:1080px;
   margin: 0 auto;
+  filter: grayscale(80%);
 }
 .team-heading {
 }
