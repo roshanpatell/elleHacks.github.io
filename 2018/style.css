@@ -301,7 +301,7 @@ a.linkedin {
   justify-content: space-around;
   max-width:1080px;
   margin: 0 auto;
-  filter: grayscale(80%);
+  /*filter: grayscale(80%);*/
 }
 .team-heading {
 }
