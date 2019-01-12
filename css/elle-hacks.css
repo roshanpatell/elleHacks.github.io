@@ -37,7 +37,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: -20px;
+  margin-top: -43px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -57,7 +57,7 @@
 }
 
 .text-block-2 {
-  margin-top: 16px;
+  margin-top: 12px;
   font-family: BenchNine, sans-serif;
   font-size: 33px;
   line-height: 33px;
@@ -65,7 +65,7 @@
 }
 
 .text-block-3 {
-  margin-top: 3px;
+  margin-top: 12px;
   font-family: 'Open Sans', sans-serif;
   color: #b6b6b6;
   font-size: 20px;
@@ -181,7 +181,7 @@
 
 .color-title-background._1 {
   margin-top: -136px;
-  margin-right: -318px;
+  margin-right: -214px;
   font-family: BenchNine, sans-serif;
 }
 
@@ -200,7 +200,8 @@
 
 .h1 {
   font-family: BenchNine, sans-serif;
-  font-size: 43px;
+  font-size: 46px;
+  line-height: 58px;
   text-transform: uppercase;
 }
 
@@ -293,6 +294,7 @@
 }
 
 .paragraph.left-margin {
+  margin-top: 20px;
   padding-left: 55px;
 }
 
@@ -377,6 +379,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -398,7 +401,18 @@
 }
 
 .button-background.cta {
+  position: relative;
   width: 90px;
+}
+
+.button-background.light.cta {
+  position: absolute;
+  display: block;
+}
+
+.button-background.dark.cta {
+  position: absolute;
+  display: block;
 }
 
 .image-14 {
@@ -533,10 +547,11 @@
 
 .title-middle-decor.faq {
   left: -151px;
-  top: -115px;
+  top: -137px;
 }
 
 .title-middle-decor.schedule {
+  left: 25px;
   top: -114px;
 }
 
@@ -702,11 +717,11 @@
 
 .columns-9 {
   position: relative;
-  top: -51px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider-image {
@@ -725,8 +740,8 @@
 }
 
 .h1-alt.tba {
-  margin-top: 108px;
-  margin-bottom: 108px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   color: #b6b6b6;
   font-size: 24px;
@@ -751,14 +766,14 @@
 .div-block-9 {
   position: relative;
   left: 15px;
-  display: none;
+  display: block;
   overflow: hidden;
   height: 40px;
   padding: 10px 20px;
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, .3);
-  opacity: 0;
+  opacity: 1;
   text-transform: none;
 }
 
@@ -781,6 +796,27 @@
 
 .link-block-2 {
   position: relative;
+}
+
+.brand-link {
+  margin-bottom: 58px;
+}
+
+.div-block-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 991px) {
