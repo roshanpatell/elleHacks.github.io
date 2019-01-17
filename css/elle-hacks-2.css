@@ -64,10 +64,10 @@
 
 .text-block-3 {
   margin-top: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: BenchNine;
   color: #7d7d7d;
-  font-size: 21px;
-  line-height: 20px;
+  font-size: 30px;
+  line-height: 30px;
   font-weight: 400;
   text-transform: none;
 }
@@ -87,7 +87,7 @@
   text-align: center;
 }
 
-.section-2 {
+.quote-section {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -177,7 +177,7 @@
   top: -35px;
 }
 
-.section-3 {
+.intro-section {
   display: block;
   margin-bottom: 80px;
 }
@@ -459,7 +459,7 @@
   display: block;
 }
 
-.section-4 {
+.apply-section {
   margin-bottom: 130px;
 }
 
@@ -540,11 +540,12 @@
 
 .section-5 {
   position: relative;
+  display: block;
   margin-bottom: 315px;
 }
 
 .section-6 {
-  display: none;
+  display: block;
   margin-bottom: 150px;
 }
 
@@ -570,11 +571,11 @@
   top: -114px;
 }
 
-.section-7 {
+.sponsor-section {
   margin-bottom: 150px;
 }
 
-.section-8 {
+.faq-section {
   margin-bottom: 150px;
 }
 
@@ -674,7 +675,7 @@
   margin-left: 10px;
 }
 
-.section-9 {
+.footer-section {
   margin-bottom: 40px;
 }
 
@@ -694,11 +695,17 @@
 }
 
 .copyright {
+  margin-right: 23px;
   font-family: BenchNine;
   color: #d3d3d3;
   font-size: 23px;
   font-weight: 400;
+  text-decoration: none;
   text-transform: uppercase;
+}
+
+.copyright.end {
+  margin-right: 0px;
 }
 
 .columns-8 {
