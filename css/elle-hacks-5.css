@@ -55,17 +55,17 @@
 }
 
 .text-block-2 {
-  margin-top: 18px;
+  margin-top: 12px;
   font-family: BenchNine;
-  font-size: 30px;
+  font-size: 33px;
   line-height: 33px;
   font-weight: 700;
-  color: #0095A1;
 }
 
 .text-block-3 {
   margin-top: 15px;
   font-family: BenchNine;
+  color: #7d7d7d;
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
@@ -315,6 +315,10 @@
   font-size: 14px;
   line-height: 22px;
   text-align: right;
+}
+
+.paragraph.notice {
+  color: red;
 }
 
 .columns-3 {
@@ -567,7 +571,7 @@
 }
 
 .title-middle-decor.faq {
-  left: 22px;
+  left: -146px;
   top: -120px;
 }
 
@@ -866,17 +870,12 @@
   padding-left: 12px;
 }
 
-.brand-link.partner {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
 .div-block-10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
+  margin-top: 85px;
   margin-bottom: 30px;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
@@ -1276,6 +1275,12 @@
     height: 90%;
     max-width: none;
   }
+  .text-block-2 {
+    margin-top: 0px;
+  }
+  .text-block-3 {
+    font-size: 20px;
+  }
   .quote {
     width: 100%;
   }
@@ -1309,11 +1314,11 @@
     width: 150px;
   }
   .title-middle-decor.sponsor {
-    top: -88px;
+    top: -127px;
   }
   .title-middle-decor.faq {
-    left: -64px;
-    top: -126px;
+    left: -18px;
+    top: -76px;
   }
   .role-div-mobile {
     display: -webkit-box;
