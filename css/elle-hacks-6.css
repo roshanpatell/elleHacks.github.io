@@ -312,6 +312,7 @@
 }
 
 .paragraph.speaker-detail {
+  color: #000;
   font-size: 14px;
   line-height: 22px;
   text-align: right;
@@ -865,7 +866,9 @@
 }
 
 .brand-link {
+  margin-right: 15px;
   margin-bottom: 50px;
+  margin-left: 15px;
   padding-right: 12px;
   padding-left: 12px;
 }
@@ -877,9 +880,10 @@
   display: flex;
   margin-top: 85px;
   margin-bottom: 30px;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
