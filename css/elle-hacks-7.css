@@ -572,7 +572,7 @@
 }
 
 .title-middle-decor.faq {
-  left: -146px;
+  left: -51px;
   top: -120px;
 }
 
@@ -878,7 +878,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 85px;
+  margin-top: 30px;
   margin-bottom: 30px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
