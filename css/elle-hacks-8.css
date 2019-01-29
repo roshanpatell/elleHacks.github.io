@@ -439,6 +439,10 @@
   display: block;
 }
 
+.button-background.inavtive {
+  width: 100px;
+}
+
 .image-14 {
   position: relative;
   left: -48px;
@@ -583,6 +587,7 @@
 
 .sponsor-section {
   margin-bottom: 150px;
+  clear: left;
 }
 
 .faq-section {
@@ -878,8 +883,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 45px;
+  margin-bottom: 45px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
