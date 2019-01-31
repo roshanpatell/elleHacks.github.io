@@ -463,6 +463,10 @@
   top: -120px;
 }
 
+.title-middle-decor.faq {
+  left: -123px;
+}
+
 .sponsor-section {
   margin-bottom: 150px;
   clear: left;
@@ -1070,6 +1074,10 @@
     top: -127px;
   }
   .title-middle-decor.schedule {
+    left: -18px;
+    top: -76px;
+  }
+  .title-middle-decor.faq {
     left: -18px;
     top: -76px;
   }
